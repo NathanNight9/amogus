@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="images/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Моя страница</h1>
+    <hr>
+    <h2>Я занимаюсь в КИТ (да)</h2>
+    <style>
+        @keyframes fade-in-slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(325px);
+      transform: scale(0.25);
+    }
+    90% {
+      opacity: 1;
+      transform: translateY(20);
+      transform: scale3d(2.0, 10.2, 3.2);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(20);
+      transform: scale3d(1.0, 1.2, 1.0);
+    }
+  }
+      
+        .smooth-image {
+          animation: fade-in-slide-up 1.5s ease-out;
+        }
+      </style>
+    <img class="smooth-image" src="images/hand.png" alt="hand">
+    <ul abc>
+        <h1> Мои хобби:</h1>
+    <li>Играть</li>
+    <li>Играть на гитаре</li>
+    <li>Играть на компьютере</li>
+    <li>Играть в настольные игры</li>
+    <li>Играть в спортивные соревнования</li>
+  </ul abc>
+  <style>
+    ul {
+      list-style-type: square;
+      list-style-position: inside;
+      padding: 10px;
+      background-color: #f2f2f20c;
+    }
+    
+    ul li {
+      margin-bottom: 5px;
+      color: #333;
+      font-size: 16px;
+    }
+    
+    ol {
+      list-style-type: disc;
+      margin-left: 20px;
+      list-style: georgian;
+      color: aqua;
+    }
+    
+    ol li {
+        list-style-type: upper-roman;
+      margin-bottom: 10px;
+      font-family: Impact;
+      color: #00bff4aa;
+      font-size: 14px;
+    }
+    
+    .custom-marker {
+      list-style-image: url('marker.png');
+    }
+  </style>
+  <ol>
+    <li>Я люблю Among Us</li>
+    <li>Я люблю Mindustry</li>
+  </ol>
+</body>
+</html>
